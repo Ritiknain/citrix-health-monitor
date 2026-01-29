@@ -27,9 +27,10 @@ citrix-health-monitor/
 |-- sample_data.py          (Simulated Citrix data - demo only)
 |-- README.md
 |-- reports/
+```
 
 After running the script:
-
+```
 citrix-health-monitor/
 |-- citrix_health.py
 |-- sample_data.py
@@ -53,12 +54,13 @@ SAMPLE OUTPUT
 --------------------------------------------------
 
 CITRIX HEALTH CHECK REPORT
-```
-Active sessions        : 2
-Disconnected sessions  : 1
-Unregistered VDAs      : 1
-License usage          : 47 / 100
-```
+
+- Text-based sample output: output/output.md
+
+- Terminal screenshot: output/output.png
+
+These files exist only to help reviewers understand the output without running the script.
+
 --------------------------------------------------
 ABOUT THE SAMPLE DATA
 --------------------------------------------------
@@ -75,8 +77,5 @@ NOTES
 - The CSV report is generated output and not a static file.
 - In production, data would be pulled from Citrix PowerShell SDK or APIs.
 
---------------------------------------------------
-AUTHOR
---------------------------------------------------
-Ritik Nain
+
 
