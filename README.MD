@@ -1,5 +1,6 @@
+------------------------------
 Citrix Health Monitoring Tool
-
+------------------------------
 This project is a Python-based script that simulates daily Citrix health checks.
 It reflects basic monitoring tasks performed by a Citrix administrator, such as checking user sessions, VDA status, and license usage.
 
@@ -52,12 +53,12 @@ SAMPLE OUTPUT
 --------------------------------------------------
 
 CITRIX HEALTH CHECK REPORT
-
+```
 Active sessions        : 2
 Disconnected sessions  : 1
 Unregistered VDAs      : 1
 License usage          : 47 / 100
-
+```
 --------------------------------------------------
 ABOUT THE SAMPLE DATA
 --------------------------------------------------
