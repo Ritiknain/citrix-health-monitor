@@ -70,6 +70,14 @@ The sample_data.py file contains simulated Citrix data only.
 - No real machines or domains
 - No real license information
 
+In a real Citrix environment, this script can be integrated with
+PowerShell-based Citrix SDK commands.
+
+PowerShell would be responsible for collecting live data
+(sessions, VDAs, license usage) and exporting it in JSON format.
+The Python script would then ingest this data to perform
+health analysis, reporting, and alerting.
+
 --------------------------------------------------
 NOTES
 --------------------------------------------------
