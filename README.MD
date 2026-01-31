@@ -55,9 +55,9 @@ SAMPLE OUTPUT
 
 CITRIX HEALTH CHECK REPORT
 
-- Text-based sample output: output/output.md
+- Text-based sample output: output/sample_output.md
 
-- Terminal screenshot: output/output.png
+- Terminal screenshot: output/sample_output.png
 
 These files exist only to help reviewers understand the output without running the script.
 
@@ -79,3 +79,4 @@ NOTES
 
 
 
+ 
